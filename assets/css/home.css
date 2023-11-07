@@ -1,0 +1,95 @@
+/* 
+@font-face {
+    font-family: 'teste' ;
+    src: url('Fontspring-DEMO-grillmaster_extended_007_extra_bold') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  } */
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.informacaoHome .homeInfo {
+    line-height: 85px;
+}
+
+.informacaoHome .homeInfo h1 {
+    font-size: 70px;
+}
+
+.informacaoHome .homeInfo span {
+    font-size: 30px;
+}
+
+.informacaoHome .resumoBaixar button {
+    font-size: 15px;
+    padding: 10px 35px;
+    font-weight: 700;
+    color: #000;
+    background-color: #4bf70c;
+    border: none;
+    border-radius: 5px;
+    transition: 0.8s ease;
+}
+
+.informacaoHome .resumoBaixar button:hover {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    background-color: #009920;
+    border-radius: 15px;
+}
+
+.informacaoHome .contatos {
+    margin-top: 25px;
+}
+
+.informacaoHome .contatos a i {
+    color: #4bf70c;
+    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px 15px 30px 0;
+    border-radius: 50%;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.8s ease;
+  }
+
+.informacaoHome .contatos .contatoLinkedin i:hover {
+    box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    background-color: #1877F2;
+    box-shadow: 0 0 20px #1877F2;
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+  
+.informacaoHome .contatos .contatoGithub i:hover {
+    box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    background-color: #39d353;
+    box-shadow: 0 0 20px #39d353;
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+  
+.informacaoHome .contatos .contatoInstagram i:hover {
+    box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+    background-color: #E4405F;
+    box-shadow: 0 0 20px #E4405F;
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+#home .imagemInicio {
+    width: 390px;
+}
