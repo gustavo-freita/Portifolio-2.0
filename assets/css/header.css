@@ -18,14 +18,24 @@ header {
 
 .conteudoHeader ul li a {
     font-size: 22px;
+    transition: 0.8s ease;
+}
+
+.conteudoHeader ul li a:hover {
+    color: #4bf70c;
 }
 
 .conteudoHeader .lingua {
-    background: rgb(81,81,81);
-    background: linear-gradient(236deg, rgba(81,81,81,1) 44%, rgba(0,0,0,1) 100%);
     padding: 10px;
     margin-left: 30px;
     border-radius: 50%;
+    transition: 0.8s ease;
+}
+
+.conteudoHeader .lingua:hover {
+    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
 }
 
 .conteudoHeader .lingua img {

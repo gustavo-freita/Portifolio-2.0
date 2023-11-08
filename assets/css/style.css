@@ -21,3 +21,10 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
   }
+
+  @font-face {
+    font-family: 'stretch';
+    src: url('StretchPro.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+  }

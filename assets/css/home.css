@@ -1,10 +1,9 @@
-/* 
 @font-face {
-    font-family: 'teste' ;
-    src: url('Fontspring-DEMO-grillmaster_extended_007_extra_bold') format('opentype');
+    font-family: 'stretch';
+    src: url('StretchPro.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  } */
+}
 
 #home {
     display: flex;
@@ -14,15 +13,21 @@
 }
 
 .informacaoHome .homeInfo {
-    line-height: 85px;
+    line-height: 80px;
 }
 
 .informacaoHome .homeInfo h1 {
     font-size: 70px;
+    font-family: fontLight;
 }
 
-.informacaoHome .homeInfo span {
+.informacaoHome .homeInfo strong {
+    font-family: fontBold;
+}
+
+.informacaoHome .homeInfo p {
     font-size: 30px;
+    font-family: fontBold;
 }
 
 .informacaoHome .resumoBaixar button {
@@ -34,6 +39,7 @@
     border: none;
     border-radius: 5px;
     transition: 0.8s ease;
+    cursor: pointer;
 }
 
 .informacaoHome .resumoBaixar button:hover {

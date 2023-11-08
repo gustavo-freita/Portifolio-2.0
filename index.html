@@ -27,7 +27,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
     <!-- fontes -->
-    
+
+    <!-- Type animacao -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="./assets/js/type.js" defer></script>
+    <!-- Type animacao -->
+
+    <style>
+        @font-face {
+            font-family: 'fontNormal';
+            src: url('assets/font/LouisGeorgeCafe.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'fontLight';
+            src: url('assets/font/LouisGeorgeCafeLight.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'fontBold';
+            src: url('assets/font/LouisGeorgeCafeBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -46,7 +71,7 @@
             <div class="informacaoHome">
                 <div class="homeInfo">
                     <h1>Oi, eu sou <br><strong>Gustavo Freitas</strong></h1>
-                    <span>Desenvolvedor Front-end</span>
+                    <p id="simpleUsage"></p>
                 </div>
                 <div class="resumoBaixar">
                     <a href="./assets/pdf/Gustavo-Freitas.pdf" download="Gustavo-Freitas.pdf" type="application/pdf">
@@ -71,3 +96,4 @@
     </main>
 </body>
 </html>
+
