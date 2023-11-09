@@ -1,0 +1,107 @@
+#sobre {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.marginSobre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 79px;
+	margin: 0 100px;
+}
+.caixaInformacoes {
+	width: 355px;
+	height: 540px;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	border: 2px solid #fff;
+}
+
+.caixaInformacoes img {
+	width: 300px;
+	border-radius: 10px;
+	margin-bottom: 16px;
+}
+
+.caixaInformacoes .contratavel {
+	width: 300px;
+	margin-bottom: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contratavel .tituloContatos {
+	background-color: blue;
+	height: 26px;
+	width: 118px;
+	font-size: 12px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contratavel .contato {
+	display: flex;
+	gap: 14px;
+}
+
+.contratavel .contato a i{
+    font-size: 18px;
+    height: 33px;
+    width: 33px;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s ease;
+}
+
+.informacaoDeContato h1 {
+	font-size: 18px;
+	font-weight: 700;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.informacaoDeContato .contatos {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.contatos .contatosInformaçoes {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 13px;
+}
+
+.contatos .contatosInformaçoes p i {
+	font-size: 24px;
+	margin-right: 8px;
+}
+
+.resumoSobre h1 {
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 24px;
+}
+
+.resumoSobre .caixaResumo {
+	width: 523px;
+	height: 385px;
+}
+
+.resumoSobre .caixaResumo p {
+	font-size: 16px;
+	font-weight: 300;
+}
