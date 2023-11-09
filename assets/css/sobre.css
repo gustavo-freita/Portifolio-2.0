@@ -14,13 +14,14 @@
 .caixaInformacoes {
 	width: 355px;
 	height: 540px;
-	background-color: red;
+	background: rgb(76,76,76);
+    background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	border-radius: 10px;
-	border: 2px solid #fff;
+	border: 2px solid #4bf70c;
 }
 
 .caixaInformacoes img {
@@ -37,7 +38,7 @@
 }
 
 .contratavel .tituloContatos {
-	background-color: blue;
+	background-color: #388d18;
 	height: 26px;
 	width: 118px;
 	font-size: 12px;
@@ -45,6 +46,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    border: none;
 }
 
 .contratavel .contato {
@@ -56,16 +58,18 @@
     font-size: 18px;
     height: 33px;
     width: 33px;
-    background-color: blue;
+    background-color: #388d18;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
     transition: 0.8s ease;
 }
 
 .informacaoDeContato h1 {
+    color: #4bf70c;
 	font-size: 18px;
 	font-weight: 700;
 	width: 100%;
@@ -85,15 +89,18 @@
 	margin-bottom: 13px;
 }
 
-.contatos .contatosInformaçoes p i {
+.contatos .contatosInformaçoes i {
 	font-size: 24px;
 	margin-right: 8px;
+    color: #4bf70c;
 }
 
 .resumoSobre h1 {
 	font-size: 22px;
 	font-weight: 500;
 	margin-bottom: 24px;
+    font-family: fontNormal;
+    color: #4bf70c;
 }
 
 .resumoSobre .caixaResumo {
@@ -104,4 +111,6 @@
 .resumoSobre .caixaResumo p {
 	font-size: 16px;
 	font-weight: 300;
+    font-family: fontLight;
+    line-height: 25px;
 }
