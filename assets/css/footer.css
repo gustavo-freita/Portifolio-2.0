@@ -22,6 +22,7 @@ footer {
 	font-weight: 900;
 	line-height: 41px;
 	margin-bottom: 18px;
+    font-style: fontLight;
 }
 
 .contatoInformacoesFooter .contatosFooter {
@@ -38,6 +39,7 @@ footer {
 .contatosFooter .contatosInformacoes i {
 	width: 24px;
 	height: 24px;
+    color: #4bf70c;
 }
 
 .contatoInformacoesFooter .linksFooter {
@@ -48,7 +50,9 @@ footer {
 }
 
 .linksFooter .iconesFooter {
-	background-color: blue;
+    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
 	width: 42px;
 	height: 42px;
 	border-radius: 50%;
@@ -59,6 +63,7 @@ footer {
 
 .linksFooter .iconesFooter i {
 	font-size: 25px;
+    color: #4bf70c;
 }
 
 .caixaFooter .setaHeader {
@@ -68,7 +73,9 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: blue;
+    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
 	font-size: 25px;
 }
 
@@ -78,4 +85,5 @@ footer {
 	font-size: 22px;
 	line-height: 55px;
 	font-weight: 200;
+    font-family: 'Poppins', sans-serif;
 }
