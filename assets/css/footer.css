@@ -1,0 +1,81 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.caixaFooter {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 100px;
+}
+
+.caixaFooter .contatoInformacoesFooter{
+	display: flex;
+}
+
+.contatoInformacoesFooter h1 {
+	font-size: 31px;
+	font-weight: 900;
+	line-height: 41px;
+	margin-bottom: 18px;
+}
+
+.contatoInformacoesFooter .contatosFooter {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+
+.contatosFooter .contatosInformacoes {
+	display: flex;
+	gap: 7px;
+}
+
+.contatosFooter .contatosInformacoes i {
+	width: 24px;
+	height: 24px;
+}
+
+.contatoInformacoesFooter .linksFooter {
+	width: 213px;
+	height: 42px;
+	display: flex;
+	gap: 15px;
+}
+
+.linksFooter .iconesFooter {
+	background-color: blue;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.linksFooter .iconesFooter i {
+	font-size: 25px;
+}
+
+.caixaFooter .setaHeader {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: blue;
+	font-size: 25px;
+}
+
+.copyright {
+	width: 322px;
+	height: 55px;
+	font-size: 22px;
+	line-height: 55px;
+	font-weight: 200;
+}
