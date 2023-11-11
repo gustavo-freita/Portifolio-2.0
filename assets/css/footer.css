@@ -49,21 +49,53 @@ footer {
 	gap: 15px;
 }
 
-.linksFooter .iconesFooter {
+.linksFooter .iconesFooter i{
     box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
     -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
     -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+	font-size: 25px;
+	color: #4bf70c;
 	width: 42px;
 	height: 42px;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    transition: 0.8s ease;
 }
 
-.linksFooter .iconesFooter i {
-	font-size: 25px;
-    color: #4bf70c;
+.linksFooter .iconesFooter.linkedin i:hover {
+	color:#fff;
+	box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    background-color: #1877F2;
+    box-shadow: 0 0 20px #1877F2;
+}
+
+.linksFooter .iconesFooter.github i:hover {
+	color: #fff;
+	box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    background-color: #39d353;
+    box-shadow: 0 0 20px #39d353;
+}
+
+.linksFooter .iconesFooter.whatsapp i:hover {
+	color: #fff;
+	background-color: #4bf70c;
+    box-shadow: 0 0 20px #4bf70c;
+}
+
+.linksFooter .iconesFooter.instagram i:hover {
+	color: #fff;
+	box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+    background-color: #cf3a56;
+    box-shadow: 0 0 20px #cf3a56;
+
 }
 
 .caixaFooter .setaHeader {
