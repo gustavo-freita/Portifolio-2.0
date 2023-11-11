@@ -21,7 +21,17 @@
 	align-items: center;
 	justify-content: center;
 	border-radius: 10px;
-	border: 2px solid #4bf70c;
+	position: relative;
+}
+
+.caixaInformacoes::before {
+	content:"";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(to bottom left, #388d18, #4bf70c);
+	z-index: -1;
+	margin: -1px;
+	border-radius: 8px;
 }
 
 .caixaInformacoes img {
