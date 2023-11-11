@@ -46,6 +46,7 @@
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     background-color: #009920;
     border-radius: 15px;
+    color: #fff;
 }
 
 .informacaoHome .contatos {
@@ -72,7 +73,7 @@
     -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
     background-color: #1877F2;
     box-shadow: 0 0 20px #1877F2;
-    color: #000;
+    color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
   
@@ -82,7 +83,7 @@
     -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
     background-color: #39d353;
     box-shadow: 0 0 20px #39d353;
-    color: #000;
+    color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
   
@@ -92,7 +93,7 @@
     -moz-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
     background-color: #E4405F;
     box-shadow: 0 0 20px #E4405F;
-    color: #000;
+    color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
 
