@@ -54,6 +54,18 @@
 	gap: 14px;
 }
 
+.contratavel .contato .contatoWhatsapp i:hover {
+	background-color: #4bf70c;
+}
+
+.contratavel .contato .contatoLinkedin i:hover {
+	background-color: #1773e9;
+}
+
+.contratavel .contato .contatoInstagram i:hover {
+	background-color: #cf3a56;
+}
+
 .contratavel .contato a i{
     font-size: 18px;
     height: 33px;
