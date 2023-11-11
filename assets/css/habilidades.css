@@ -44,21 +44,69 @@
 	text-align: center;
 }
 
-.habilidadesLogos .elipse {
+.habilidadesLogos .elipse i{
 	width: 68px;
 	height: 68px;
 	border-radius: 50%;
 	background-color: #315324;
+	color: #4bf70c;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 14px;
+    transition: 0.8s ease;
 }
 
-.habilidadesLogos .elipse i {
-    color: #4bf70c;
+.habilidadesLogos .html .elipse i:hover {
+	color: #fff;
+	background-color: #e44d26;
+}
+
+.habilidadesLogos .css .elipse i:hover {
+	color: #fff;
+	background-color: #1d538e;
+}
+
+.habilidadesLogos .sass .elipse i:hover {
+	color: #fff;
+	background-color: #c66493;
+}
+
+.habilidadesLogos .bootstrap .elipse i:hover {
+	color: #fff;
+	background-color: #8411f6;
+}
+
+.habilidadesLogos .javascript .elipse i:hover {
+	color: #fff;
+	background-color: #f9b134;
+}
+
+.habilidadesLogos .typescript .elipse i:hover {
+	color: #fff;
+	background-color: #2f72bc;
+}
+
+.habilidadesLogos .nodejs .elipse i:hover {
+	color: #fff;
+	background-color: #7cb73f;
+}
+
+.habilidadesLogos .angular .elipse i:hover {
+	color: #fff;
+	background-color: #d6002f;
+}
+
+.habilidadesLogos .git .elipse i:hover {
+	color: #fff;
+	background-color: #e84d31;
+}
+
+.habilidadesLogos .github .elipse i:hover {
+	color: #fff;
+	background-color: #39d353;
 }
 
 .habilidadesLogos p {
