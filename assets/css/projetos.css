@@ -4,8 +4,53 @@
     text-align: center;
 }
 
-#projeto img {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container img {
     display: block;
     max-width: 100%;
     height: auto;
+    border-radius: 10px 10px 0 0;
+}
+.container .cardeProjeto {
+    padding-block: 5rem;
+}
+
+.cardeProjeto .cardeConteudo {
+    margin-block: 1.75rem;
+    border-radius: 1.75rem;
+    overflow: hidden;
+}
+
+.cardeConteudo .cardeArticle {
+    width: 300px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.cardeArticle .cardeImagem {
+    position: relative;
+    background-color: red;
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;    
+}
+
+.cardeArticle .cardeImagem .cardImg {
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.cardeArticle .cardDados {
+    background-color: blue;
+    padding: 1.5rem 2rem;
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
 }
