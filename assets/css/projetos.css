@@ -4,12 +4,18 @@
     text-align: center;
 }
 
+#projetos h1 {
+    font-size: 2.7rem;
+    color: #4BF70C;
+    font-style: fontNormal;
+    font-weight: 700;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .container img {
     display: block;
@@ -35,9 +41,9 @@
 
 .cardeArticle .cardeImagem {
     position: relative;
-    background-color: red;
+    background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
     padding-top: 1.5rem;
-    margin-bottom: -.75rem;    
+    margin-bottom: -2px;    
 }
 
 .cardeArticle .cardeImagem .cardImg {
@@ -47,10 +53,54 @@
 }
 
 .cardeArticle .cardDados {
-    background-color: blue;
-    padding: 1.5rem 2rem;
+    background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
+    padding: 1rem 2rem;
     border-radius: 0 0 1rem 1rem;
     text-align: center;
     position: relative;
     z-index: 10;
+}
+
+.cardeArticle .cardDados h3 {
+    text-align: start;
+    font-size: 1.2rem;
+    color: #4BF70C;
+    line-height: 55px;
+    font-weight: 400;
+}
+
+.cardeArticle .cardDados .linksProjetos {
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.cardeArticle .cardDados .linksProjetos a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-color: #4BF70C;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.cardeArticle .cardDados .linksProjetos .gitHubLink i:hover {
+	box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+    background-color: #39d353;
+    box-shadow: 0 0 20px #39d353;
+}
+
+.cardeArticle .cardDados .linksProjetos .deployLink i:hover {
+    box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
+    background-color: #1877F2;
+    box-shadow: 0 0 20px #1877F2;
 }
