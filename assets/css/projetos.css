@@ -105,11 +105,11 @@
     box-shadow: 0 0 20px #1877F2;
 }
 
-.swiper-button-prev::after, .swiper-button-next::after{
-    display: none;
+.cardeProjeto .swiper-button-prev::after, .cardeProjeto .swiper-button-next::after{
+    content: "";
 }
 
-.swiper-button-prev i, .swiper-button-next i {
+.cardeProjeto .swiper-button-prev i, .cardeProjeto .swiper-button-next i {
     width: initial;
     height: initial;
     font-size: 3rem;
@@ -117,10 +117,43 @@
     display: none;
 }
 
-.swiper-button-prev {
+ .cardeProjeto .swiper-button-prev {
     left: 0;
 }
 
-.swiper-button-next {
+.cardeProjeto .swiper-button-next {
     right: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .card__data {
+      padding: 1rem;
+    }
+}
+  
+  /* For medium devices */
+@media screen and (min-width: 768px) {
+    .cardDados {
+      margin-inline: 3rem;
+    }
+  
+    .cardeProjeto .swiper-button-next,
+    .cardeProjeto .swiper-button-prev {
+      display: block;
+    }
+}
+  
+  /* For large devices */
+@media screen and (min-width: 1120px) {
+    .cardeProjeto {
+      max-width: 1120px;
+    }
+  
+    .cardeProjeto .swiper-button-prev {
+      left: -1rem;
+    }
+    
+    .cardeProjeto .swiper-button-next {
+      right: -1rem;
+    }
 }
