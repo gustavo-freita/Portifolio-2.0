@@ -2,10 +2,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
+	height: 100vh;
 }
 
-.posicaoHabilidades {
+.containerHabilidades {
 	width: 986px;
 	height: 459px;
 	background: rgb(76,76,76);
@@ -15,13 +15,10 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin: 0 100px;
 }
 
-.posicaoHabilidades .conteudoHabilidades {
-	margin-top: 57px;
-}
-
-.conteudoHabilidades h1 {
+.containerHabilidades h1 {
 	margin-bottom: 55px;
 	font-size: 27px;
 	font-weight: 900;
@@ -30,9 +27,13 @@
     font-style: fontNormal;
 }
 
-.conteudoHabilidades .habilidadesLogos {
+.containerHabilidades .habilidadesLogos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
 	width: 639px;
-	height: 158px;
+	height: auto;
 }
 
 .habilidadesLogos .logos-01 {
@@ -56,6 +57,7 @@
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 14px;
+    margin: 15px 25px;
     transition: 0.8s ease;
 }
 
