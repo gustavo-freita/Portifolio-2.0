@@ -5,8 +5,41 @@
   scroll-behavior: smooth;
   color: #fff;
 }
-  
-  body {
+
+@font-face {
+  font-family: 'fontNormal';
+  src: url('assets/font/LouisGeorgeCafe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontLight';
+  src: url('assets/font/LouisGeorgeCafeLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontBold';
+  src: url('assets/font/LouisGeorgeCafeBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-size: 62.5%;
+  --verdePadrao: #4bf70c;
+  --verdeHover: rgba(75,248,13,0.75);
+  --verdeEscuroHover: #009920;
+  --linkedin: #1877F2;
+  --linkedinHover: rgba(23, 115, 233,0.75);
+  --instagram: #E4405F;
+  --instagramHover: rgba(207, 58, 86,0.75);
+  --gitHub: #39d353;
+  --gitHubHover: rgba(53, 198, 78,0.75);
+  --whatsApp:
+}
+
+body {
     overflow-x: hidden;
     background-color: #000;
     font-family: 'Poppins', sans-serif;
@@ -18,20 +51,17 @@ main {
 
 h1 {
   font-size: 2.7rem;
-  color: #4BF70C;
+  color: var(--verdePadrao);
   font-style: fontNormal;
   font-weight: 700;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 a, li, ul {
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-}
-
-@font-face {
-  font-family: 'stretch';
-  src: url('StretchPro.otf') format(opentype);
-  font-weight: normal;
-  font-style: normal;
 }

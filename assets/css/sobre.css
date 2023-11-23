@@ -98,9 +98,6 @@
 }
 
 .informacaoDeContato h1 {
-    color: #4bf70c;
-	font-size: 18px;
-	font-weight: 700;
 	width: 100%;
 	margin-bottom: 15px;
 }
@@ -125,11 +122,7 @@
 }
 
 .resumoSobre h1 {
-	font-size: 22px;
-	font-weight: 500;
 	margin-bottom: 24px;
-    font-family: fontNormal;
-    color: #4bf70c;
 }
 
 .resumoSobre .caixaResumo {

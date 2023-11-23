@@ -22,7 +22,7 @@ header {
 }
 
 .conteudoHeader ul li a:hover {
-    color: #4bf70c;
+    color: var(--verdePadrao);
 }
 
 .conteudoHeader .lingua {
@@ -33,9 +33,9 @@ header {
 }
 
 .conteudoHeader .lingua:hover {
-    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    box-shadow: 0 1px 20px -5px var(--verdeHover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--verdeHover);
+    -moz-box-shadow: 0 1px 20px -5px var(--verdeHover);
 }
 
 .conteudoHeader .lingua img {

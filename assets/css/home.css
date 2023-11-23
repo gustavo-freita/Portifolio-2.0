@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'stretch';
-    src: url('StretchPro.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 #home {
     height: 80vh;
 }
@@ -39,7 +32,7 @@
     padding: 10px 35px;
     font-weight: 700;
     color: #000;
-    background-color: #4bf70c;
+    background-color: var(--verdePadrao);
     border: none;
     border-radius: 5px;
     transition: 0.8s ease;
@@ -48,7 +41,7 @@
 
 .informacaoHome .resumoBaixar button:hover {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    background-color: #009920;
+    background-color: var(--verdeEscuroHover);
     border-radius: 15px;
     color: #fff;
 }
@@ -58,10 +51,10 @@
 }
 
 .informacaoHome .contatos a i {
-    color: #4bf70c;
-    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
+    color: var(--verdePadrao);
+    box-shadow: 0 1px 20px -5px var(--verdeHover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--verdeHover);
+    -moz-box-shadow: 0 1px 20px -5px var(--verdeHover);
     font-size: 30px;
     padding: 15px;
     margin: 10px 15px 30px 0;
@@ -72,31 +65,31 @@
   }
 
 .informacaoHome .contatos .contatoLinkedin i:hover {
-    box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    background-color: #1877F2;
-    box-shadow: 0 0 20px #1877F2;
+    box-shadow: 0 1px 20px -5px var(--linkedinHover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--linkedinHover);
+    -moz-box-shadow: 0 1px 20px -5px var(--linkedinHover);
+    background-color: var(--linkedin);
+    box-shadow: 0 0 20px var(--linkedin);
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
   
 .informacaoHome .contatos .contatoGithub i:hover {
-    box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    background-color: #39d353;
-    box-shadow: 0 0 20px #39d353;
+    box-shadow: 0 1px 20px -5px var(--gitHubHover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--gitHubHover);
+    -moz-box-shadow: 0 1px 20px -5px var(--gitHubHover);
+    background-color: var(--gitHub);
+    box-shadow: 0 0 20px var(--gitHub);
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
   
 .informacaoHome .contatos .contatoInstagram i:hover {
-    box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
-    background-color: #E4405F;
-    box-shadow: 0 0 20px #E4405F;
+    box-shadow: 0 1px 20px -5px var(instagramHover);
+    -webkit-box-shadow: 0 1px 20px -5px var(instagramHover);
+    -moz-box-shadow: 0 1px 20px -5px var(--instagramHover);
+    background-color: var(--instagram);
+    box-shadow: 0 0 20px var(--instagram);
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }

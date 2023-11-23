@@ -8,13 +8,6 @@
     margin: 100px 0;
 }
 
-h1 {
-    font-size: 2.7rem;
-    color: #4BF70C;
-    font-style: fontNormal;
-    font-weight: 700;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -33,7 +26,7 @@ h1 {
 }
 
 .cardeArticle {
-  width: 300px; /* Remove after adding swiper js */
+  width: 300px; 
   border-radius: 1.25rem;
   overflow: hidden;
 }
@@ -141,15 +134,12 @@ h1 {
     box-shadow: 0 0 20px #1877F2;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 320px) {
   .cardeLinks {
     padding: 1rem;
   }
 }
 
-/* For medium devices */
 @media screen and (min-width: 768px) {
   .cardeConteudo {
     margin-inline: 3rem;
@@ -161,7 +151,6 @@ h1 {
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 1120px) {
   .cardeContainer {
     max-width: 1120px;
