@@ -2,9 +2,13 @@
     width: 100%;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0;
 }
 
-#projetos h1 {
+h1 {
     font-size: 2.7rem;
     color: #4BF70C;
     font-style: fontNormal;
@@ -12,70 +16,102 @@
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
-.container img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-}
-.container .cardeProjeto {
-    padding-block: 5rem;
+.cardeContainer {
+  padding-block: 5rem;
 }
 
-.cardeProjeto .cardeConteudo {
-    margin-block: 1.75rem;
-    border-radius: 1.75rem;
-    overflow: hidden;
+.cardeConteudo {
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
 }
 
-.cardeConteudo .cardeArticle {
-    width: 300px;
-    border-radius: 1.25rem;
-    overflow: hidden;
+.cardeArticle {
+  width: 300px; /* Remove after adding swiper js */
+  border-radius: 1.25rem;
+  overflow: hidden;
 }
 
-.cardeArticle .cardeImagem {
-    position: relative;
-    background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
-    padding-top: 1.5rem;
-    margin-bottom: -2px;    
+.cardeImage {
+  position: relative;
+  background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 124%);
+  padding-top: 1.5rem;
 }
 
-.cardeArticle .cardeImagem .cardImg {
-    margin: 0 auto;
-    position: relative;
-    z-index: 5;
+.cardeLinks {
+  background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
+  padding: 1.5rem 2rem;
+  border-radius: 0 0 1rem 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
 }
 
-.cardeArticle .cardDados {
-    background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
-    padding: 1rem 2rem;
-    border-radius: 0 0 1rem 1rem;
-    text-align: center;
-    position: relative;
-    z-index: 10;
+.cardeImg {
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
 }
 
-.cardeArticle .cardDados h3 {
-    text-align: start;
-    font-size: 1.2rem;
-    color: #4BF70C;
-    line-height: 55px;
-    font-weight: 400;
+.cardeNome {
+  font-size: var(--h2-font-size);
+  color: rgba(75, 247, 12, 1);
+  margin-bottom: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: start;
 }
 
-.cardeArticle .cardDados .linksProjetos {
-    display: flex;
-    gap: 25px;
-    margin-top: 15px;
+.swiper-button-prev:after, 
+.swiper-button-next:after {
+  content: "";
 }
 
-.cardeArticle .cardDados .linksProjetos a i {
+.swiper-button-prev, 
+.swiper-button-next {
+  width: 60px;
+  height: initial;
+  font-size: 3rem;
+  color: #4bf70c;
+  display: none;
+}
+
+.swiper-button-prev i, 
+.swiper-button-next i {
+    color: #4bf70c;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--second-color);
+}
+
+.cardeArticle .cardeLinks .linksProjetos {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cardeArticle .cardeLinks a i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,15 +125,15 @@
     transition: 0.8s ease;
 }
 
-.cardeArticle .cardDados .linksProjetos .gitHubLink i:hover {
-	box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
+.cardeArticle .cardeLinks .gitHubLink i:hover {
+  box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
     -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
     -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
     background-color: #39d353;
     box-shadow: 0 0 20px #39d353;
 }
 
-.cardeArticle .cardDados .linksProjetos .deployLink i:hover {
+.cardeArticle .cardeLinks .deployLink i:hover {
     box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
     -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
     -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
@@ -105,55 +141,36 @@
     box-shadow: 0 0 20px #1877F2;
 }
 
-.cardeProjeto .swiper-button-prev::after, .cardeProjeto .swiper-button-next::after{
-    content: "";
-}
-
-.cardeProjeto .swiper-button-prev i, .cardeProjeto .swiper-button-next i {
-    width: initial;
-    height: initial;
-    font-size: 3rem;
-    color: #4BF70C;
-    display: none;
-}
-
- .cardeProjeto .swiper-button-prev {
-    left: 0;
-}
-
-.cardeProjeto .swiper-button-next {
-    right: 0;
-}
-
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
 @media screen and (max-width: 320px) {
-    .card__data {
-      padding: 1rem;
-    }
+  .cardeLinks {
+    padding: 1rem;
+  }
 }
-  
-  /* For medium devices */
+
+/* For medium devices */
 @media screen and (min-width: 768px) {
-    .cardDados {
-      margin-inline: 3rem;
-    }
-  
-    .cardeProjeto .swiper-button-next,
-    .cardeProjeto .swiper-button-prev {
-      display: block;
-    }
+  .cardeConteudo {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
 }
-  
-  /* For large devices */
+
+/* For large devices */
 @media screen and (min-width: 1120px) {
-    .cardeProjeto {
-      max-width: 1120px;
-    }
-  
-    .cardeProjeto .swiper-button-prev {
-      left: -1rem;
-    }
-    
-    .cardeProjeto .swiper-button-next {
-      right: -1rem;
-    }
+  .cardeContainer {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
 }

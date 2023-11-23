@@ -10,17 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- icons -->
-    
-    <!-- Estilos -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link rel="stylesheet" href="./assets/css/sobre.css">
-    <link rel="stylesheet" href="./assets/css/habilidades.css">
-    <link rel="stylesheet" href="./assets/css/projetos.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <!-- Estilos -->
+
+    <script src="./assets/js/swiper-bundle.min.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/type.js" defer></script>    
 
     <!-- Swiper -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
@@ -35,6 +28,16 @@
     <!-- Type animacao -->
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- Type animacao -->
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/habilidades.css">
+    <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <!-- Estilos -->
 
     <style>
         @font-face {
@@ -239,15 +242,15 @@
         <section id="projetos">
             <h1>Projetos</h1>
             <div class="container">
-                <div class="cardeProjeto swiper">
+                <div class="cardeContainer swiper">
                     <div class="cardeConteudo">
                         <div class="swiper-wrapper">
                             <article class="cardeArticle swiper-slide">
-                                <div class="cardeImagem">
-                                    <img src="./assets/image/buzzfeed.jpg" width="263px" height="227px" alt="imagr" class="cardImg">
+                                <div class="cardeImage">
+                                    <img src="./assets/image/buzzfeed.jpg" alt="image" class="cardeImg">
                                 </div>
-                                <div class="cardDados">
-                                    <h3 class="cardNome">BuzzFeed Clone</h3>
+                                <div class="cardeLinks">
+                                    <h3 class="cardeNome">BuzzFeed Clone</h3>
                                     <div class="linksProjetos">
                                         <a href="https://github.com/gustavo-freita">
                                             <span class="gitHubLink">
@@ -258,36 +261,38 @@
                                             <span class="deployLink">
                                                 <i class="fa-solid fa-code"></i>
                                             </span>
-                                        </a>
+                                        </a>   
                                     </div>
                                 </div>
                             </article>
+              
                             <article class="cardeArticle swiper-slide">
-                                <div class="cardeImagem">
-                                    <img src="./assets/image/buzzfeed.jpg" width="263px" height="227px" alt="imagr" class="cardImg">
+                                <div class="cardeImage">
+                                    <img src="assets/image/calculadora.png" alt="image" class="cardeImg">
                                 </div>
-                                <div class="cardDados">
-                                    <h3 class="cardNome">BuzzFeed Clone</h3>
+                                <div class="cardeLinks">
+                                    <h3 class="cardeNome">Calculadora</h3>
                                     <div class="linksProjetos">
                                         <a href="https://github.com/gustavo-freita">
-                                            <span class="gitHubLink">
-                                                <i class="fa-brands fa-github"></i>
-                                            </span>
+                                        <span class="gitHubLink">
+                                            <i class="fa-brands fa-github"></i>
+                                        </span>
                                         </a>
                                         <a href="https://github.com/gustavo-freita">
                                             <span class="deployLink">
                                                 <i class="fa-solid fa-code"></i>
                                             </span>
-                                        </a>
+                                        </a>   
                                     </div>
                                 </div>
                             </article>
+              
                             <article class="cardeArticle swiper-slide">
-                                <div class="cardeImagem">
-                                    <img src="./assets/image/buzzfeed.jpg" width="263px" height="227px" alt="imagr" class="cardImg">
+                                <div class="cardeImage">
+                                    <img src="assets/image/webpage01.png" alt="image" class="cardeImg">
                                 </div>
-                                <div class="cardDados">
-                                    <h3 class="cardNome">BuzzFeed Clone</h3>
+                                <div class="cardeLinks">
+                                    <h3 class="cardeNome">Web Page</h3>
                                     <div class="linksProjetos">
                                         <a href="https://github.com/gustavo-freita">
                                             <span class="gitHubLink">
@@ -298,16 +303,17 @@
                                             <span class="deployLink">
                                                 <i class="fa-solid fa-code"></i>
                                             </span>
-                                        </a>
+                                        </a>   
                                     </div>
                                 </div>
                             </article>
+      
                             <article class="cardeArticle swiper-slide">
-                                <div class="cardeImagem">
-                                    <img src="./assets/image/buzzfeed.jpg" width="263px" height="227px" alt="imagr" class="cardImg">
-                                </div>
-                                <div class="cardDados">
-                                    <h3 class="cardNome">BuzzFeed Clone</h3>
+                                <div class="cardeImage">
+                                    <img src="assets/image/loginPage.jpg" alt="image" class="cardeImg">
+                                </div>  
+                                <div class="cardeLinks">
+                                    <h3 class="cardeNome">Login Page</h3>
                                     <div class="linksProjetos">
                                         <a href="https://github.com/gustavo-freita">
                                             <span class="gitHubLink">
@@ -318,16 +324,17 @@
                                             <span class="deployLink">
                                                 <i class="fa-solid fa-code"></i>
                                             </span>
-                                        </a>
+                                        </a>   
                                     </div>
                                 </div>
                             </article>
+
                             <article class="cardeArticle swiper-slide">
-                                <div class="cardeImagem">
-                                    <img src="./assets/image/buzzfeed.jpg" width="263px" height="227px" alt="imagr" class="cardImg">
+                                <div class="cardeImage">
+                                    <img src="assets/image/blogAngular.png" alt="image" class="cardeImg">
                                 </div>
-                                <div class="cardDados">
-                                    <h3 class="cardNome">BuzzFeed Clone</h3>
+                                <div class="cardeLinks">
+                                    <h3 class="cardeNome">Blog Angular</h3>      
                                     <div class="linksProjetos">
                                         <a href="https://github.com/gustavo-freita">
                                             <span class="gitHubLink">
@@ -338,18 +345,19 @@
                                             <span class="deployLink">
                                                 <i class="fa-solid fa-code"></i>
                                             </span>
-                                        </a>
+                                        </a>   
                                     </div>
                                 </div>
                             </article>
                         </div>
                     </div>
-                    <div class="swiper-button-prev">
-                        <i class="fa-solid fa-angle-left"></i>
-                    </div>
                     <div class="swiper-button-next">
-                        <i class="fa-solid fa-angle-right"></i>
+                       <i class="fa-solid fa-angle-right"></i>
                     </div>
+                    
+                    <div class="swiper-button-prev">
+                       <i class="fa-solid fa-angle-left"></i>
+                    </div>         
                 </div>
             </div>
         </section>
@@ -406,10 +414,7 @@
         </div>
         <p class="copyright">&copy; Gustavo Freitas - 2023</p>
     </footer>
-
-    <script src="./assets/js/swiper-bundle.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/type.js"></script>
+    
 </body>
 </html>
 
