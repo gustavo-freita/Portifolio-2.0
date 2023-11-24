@@ -35,7 +35,7 @@
 	content:"";
 	position: absolute;
 	inset: 0;
-	background: linear-gradient(to bottom left, #388d18, #4bf70c);
+	background: linear-gradient(to bottom left, var(--verdeEscuroHover), var(--verdePadrao));
 	z-index: -1;
 	margin: -1px;
 	border-radius: 8px;
@@ -55,10 +55,10 @@
 }
 
 .contratavel .tituloContatos {
-	background-color: #388d18;
+	background-color: var(--verdeEscuroHover);
 	height: 26px;
 	width: 118px;
-	font-size: 12px;
+	font-size: 1.2rem;
 	border-radius: 50px;
 	display: flex;
 	align-items: center;
@@ -72,10 +72,10 @@
 }
 
 .contratavel .contato a i{
-    font-size: 18px;
+    font-size: 1.8rem;
     height: 33px;
     width: 33px;
-    background-color: #388d18;
+    background-color: var(--verdeEscuroHover);
     border-radius: 50%;
     cursor: pointer;
     display: flex;
@@ -86,15 +86,15 @@
 }
 
 .contratavel .contato .contatoWhatsapp i:hover {
-	background-color: #4bf70c;
+	background-color: var(--verdePadrao);
 }
 
 .contratavel .contato .contatoLinkedin i:hover {
-	background-color: #1773e9;
+	background-color: var(--linkedin);
 }
 
 .contratavel .contato .contatoInstagram i:hover {
-	background-color: #cf3a56;
+	background-color: var(--instagram);
 }
 
 .informacaoDeContato h1 {
@@ -116,9 +116,13 @@
 }
 
 .contatos .contatosInformaçoes i {
-	font-size: 24px;
+	font-size: 2.4rem;
 	margin-right: 8px;
-    color: #4bf70c;
+    color: var(--verdePadrao);
+}
+
+.resumoSobre {
+	margin-bottom: 80px;
 }
 
 .resumoSobre h1 {
@@ -131,9 +135,6 @@
 }
 
 .resumoSobre .caixaResumo p {
-	font-size: 16px;
-	font-weight: 300;
-    font-family: fontLight;
     line-height: 25px;
 	width: 523px;
 	height: 385px;
