@@ -6,15 +6,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 100px;
+    margin: 5rem 10rem;
 }
 
 .informacaoHome .homeInfo {
-    line-height: 80px;
+    line-height: 8rem;
 }
 
 .informacaoHome .homeInfo h1 {
-    font-size: 70px;
+    color: #fff;
+    font-size: 7rem;
     font-family: fontLight;
 }
 
@@ -23,41 +24,41 @@
 }
 
 .informacaoHome .homeInfo p {
-    font-size: 30px;
+    font-size: 3rem;
     font-family: fontBold;
 }
 
 .informacaoHome .resumoBaixar button {
-    font-size: 15px;
-    padding: 10px 35px;
+    font-size: 1.5rem;
+    padding: 1rem 3.5rem;
     font-weight: 700;
     color: #000;
-    background-color: var(--verdePadrao);
+    background-color: var(--color-verde-padrao);
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     transition: 0.8s ease;
     cursor: pointer;
 }
 
 .informacaoHome .resumoBaixar button:hover {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    background-color: var(--verdeEscuroHover);
-    border-radius: 15px;
+    background-color: var(--color-verde-escuro-hover);
+    border-radius: 1.5rem;
     color: #fff;
 }
 
 .informacaoHome .contatos {
-    margin-top: 25px;
+    margin-top: 2.5rem;
 }
 
 .informacaoHome .contatos a i {
-    color: var(--verdePadrao);
-    box-shadow: 0 1px 20px -5px var(--verdeHover);
-    -webkit-box-shadow: 0 1px 20px -5px var(--verdeHover);
-    -moz-box-shadow: 0 1px 20px -5px var(--verdeHover);
-    font-size: 30px;
-    padding: 15px;
-    margin: 10px 15px 30px 0;
+    color: var(--color-verde-padrao);
+    box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin: 1rem 1.5rem 3rem 0;
     border-radius: 50%;
     font-weight: 100;
     cursor: pointer;
@@ -65,35 +66,35 @@
   }
 
 .informacaoHome .contatos .contatoLinkedin i:hover {
-    box-shadow: 0 1px 20px -5px var(--linkedinHover);
-    -webkit-box-shadow: 0 1px 20px -5px var(--linkedinHover);
-    -moz-box-shadow: 0 1px 20px -5px var(--linkedinHover);
-    background-color: var(--linkedin);
-    box-shadow: 0 0 20px var(--linkedin);
+    box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    background-color: var(--color-azul);
+    box-shadow: 0 0 20px var(--color-azul);
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
   
 .informacaoHome .contatos .contatoGithub i:hover {
-    box-shadow: 0 1px 20px -5px var(--gitHubHover);
-    -webkit-box-shadow: 0 1px 20px -5px var(--gitHubHover);
-    -moz-box-shadow: 0 1px 20px -5px var(--gitHubHover);
-    background-color: var(--gitHub);
-    box-shadow: 0 0 20px var(--gitHub);
+    box-shadow: 0 1px 20px -5px var(--color-github-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-github-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-github-hover);
+    background-color: var(--color-github);
+    box-shadow: 0 0 20px var(--color-github);
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
   
 .informacaoHome .contatos .contatoInstagram i:hover {
-    box-shadow: 0 1px 20px -5px var(instagramHover);
-    -webkit-box-shadow: 0 1px 20px -5px var(instagramHover);
-    -moz-box-shadow: 0 1px 20px -5px var(--instagramHover);
-    background-color: var(--instagram);
-    box-shadow: 0 0 20px var(--instagram);
+    box-shadow: 0 1px 20px -5px var(--color-instagram-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-instagram-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-instagram-hover);
+    background-color: var(--color-instagram);
+    box-shadow: 0 0 20px var(--color-instagram);
     color: #fff;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
 }
 
 #home .imagemInicio {
-    width: 390px;
+    width: 39rem;
 }
