@@ -1,18 +1,18 @@
 #projetos {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 100px 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10rem 0;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 
 .cardeContainer {
@@ -26,7 +26,7 @@
 }
 
 .cardeArticle {
-  width: 300px; 
+  width: 30rem; 
   border-radius: 1.25rem;
   overflow: hidden;
 }
@@ -47,14 +47,14 @@
 }
 
 .cardeImg {
-  width: 180px;
+  width: 18rem;
   margin: 0 auto;
   position: relative;
   z-index: 5;
 }
 
 .cardeNome {
-  font-size: var(--h2-font-size);
+  font-size: var(--p-font-size);
   color: rgba(75, 247, 12, 1);
   margin-bottom: 1.2rem;
   width: 100%;
@@ -69,7 +69,7 @@
 
 .swiper-button-prev, 
 .swiper-button-next {
-  width: 60px;
+  width: 6rem;
   height: initial;
   font-size: 3rem;
   color: #4bf70c;
@@ -78,7 +78,7 @@
 
 .swiper-button-prev i, 
 .swiper-button-next i {
-    color: #4bf70c;
+    color: var(--color-verde-padrao)
 }
 
 .swiper-button-prev {
@@ -89,49 +89,40 @@
   right: 0;
 }
 
-.swiper-pagination-bullet {
-  background-color: hsl(212, 32%, 40%);
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--second-color);
-}
-
 .cardeArticle .cardeLinks .linksProjetos {
   display: flex;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .cardeArticle .cardeLinks a i {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 44px;
-    width: 44px;
+    height: 4.4rem;
+    width: 4.4rem;
     border-radius: 50%;
     background-color: #4BF70C;
     color: #fff;
-    font-size: 25px;
+    font-size: 2.5rem;
     cursor: pointer;
     transition: 0.8s ease;
 }
 
 .cardeArticle .cardeLinks .gitHubLink i:hover {
-  box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    background-color: #39d353;
-    box-shadow: 0 0 20px #39d353;
+  box-shadow: 0 1px 20px -5px var(--color-gitHub-hover);
+  -webkit-box-shadow: 0 1px 20px -5px var(--color-gitHub-hover);
+  -moz-box-shadow: 0 1px 20px -5px var(--color-gitHub-hover);
+  background-color: #39d353;
+  box-shadow: 0 0 20px #39d353;
 }
 
 .cardeArticle .cardeLinks .deployLink i:hover {
-    box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    background-color: #1877F2;
-    box-shadow: 0 0 20px #1877F2;
+  box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+  -webkit-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+  -moz-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+  background-color: #1877F2;
+  box-shadow: 0 0 20px #1877F2;
 }
 
 @media screen and (max-width: 320px) {
