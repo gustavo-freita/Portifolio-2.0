@@ -8,26 +8,26 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 100px ;
+	margin: 10rem ;
 }
 
 .marginSobre {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 79px;
-	margin: 0 100px;
+	gap: 7.9rem;
+	margin: 0 10rem;
 }
 .caixaInformacoes {
-	width: 355px;
-	height: 540px;
+	width: 35.5rem;
+	height: 54rem;
 	background: rgb(76,76,76);
     background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-radius: 10px;
+	border-radius: 1rem;
 	position: relative;
 }
 
@@ -35,107 +35,60 @@
 	content:"";
 	position: absolute;
 	inset: 0;
-	background: linear-gradient(to bottom left, var(--verdeEscuroHover), var(--verdePadrao));
+	background: linear-gradient(to bottom left, var(--color-verde-escuro-hover), var(--color-verde-padrao));
 	z-index: -1;
 	margin: -1px;
 	border-radius: 8px;
 }
 
 .caixaInformacoes img {
-	width: 300px;
-	border-radius: 10px;
-	margin-bottom: 16px;
-}
-
-.caixaInformacoes .contratavel {
-	width: 300px;
-	margin-bottom: 12px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.contratavel .tituloContatos {
-	background-color: var(--verdeEscuroHover);
-	height: 26px;
-	width: 118px;
-	font-size: 1.2rem;
-	border-radius: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-    border: none;
-}
-
-.contratavel .contato {
-	display: flex;
-	gap: 14px;
-}
-
-.contratavel .contato a i{
-    font-size: 1.8rem;
-    height: 33px;
-    width: 33px;
-    background-color: var(--verdeEscuroHover);
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    transition: 0.8s ease;
-}
-
-.contratavel .contato .contatoWhatsapp i:hover {
-	background-color: var(--verdePadrao);
-}
-
-.contratavel .contato .contatoLinkedin i:hover {
-	background-color: var(--linkedin);
-}
-
-.contratavel .contato .contatoInstagram i:hover {
-	background-color: var(--instagram);
+	width: 30rem;
+	border-radius: 1rem;
+	margin-bottom: 1.6rem;
 }
 
 .informacaoDeContato h1 {
+	color: #fff;
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 }
 
 .informacaoDeContato .contatos {
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 1.5px;
 }
 
 .contatos .contatosInformaçoes {
 	display: flex;
 	align-items: center;
-	gap: 8px;
-	margin-bottom: 13px;
+	gap: .8rem;
+	margin-bottom: 1.3rem;
 }
 
 .contatos .contatosInformaçoes i {
 	font-size: 2.4rem;
-	margin-right: 8px;
-    color: var(--verdePadrao);
+	margin-right: .8rem;
+    color: var(--color-verde-padrao);
 }
 
 .resumoSobre {
-	margin-bottom: 80px;
+	margin-bottom: 8rem;
 }
 
 .resumoSobre h1 {
-	margin-bottom: 24px;
+	color: var(--color-verde-padrao);
+	margin-bottom: 2.4rem;
 }
 
 .resumoSobre .caixaResumo {
-	width: 523px;
-	height: 385px;
+	width: 52.3rem;
+	height: 38.5rem;
 }
 
 .resumoSobre .caixaResumo p {
-    line-height: 25px;
-	width: 523px;
-	height: 385px;
+    line-height: 2.5rem;
+	width: 52.3rem;
+	height: 38.5rem;
+	font-size: 2rem;
 }
