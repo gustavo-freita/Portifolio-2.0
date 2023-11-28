@@ -27,24 +27,26 @@
 
 :root {
   font-size: 62.5%;
-  --verdePadrao: #4bf70c;
-  --verdeHover: rgba(75,248,13,0.75);
-  --verdeEscuroHover: #009920;
-  --linkedin: #1877F2;
-  --linkedinHover: rgba(23, 115, 233,0.75);
-  --instagram: #E4405F;
-  --instagramHover: rgba(207, 58, 86,0.75);
-  --gitHub: #39d353;
-  --gitHubHover: rgba(53, 198, 78,0.75);
-  --html:
-  --css:
-  --sass:
-  --bootstrap:
-  --javaScript:
-  --typeScript:
-  --nodeJs:
-  --angular:
-  --git:
+  --color-verde-padrao: #4bf70c;
+  --color-verde-hover: rgba(75,248,13,0.75);
+  --color-verde-escuro-hover: #009920;
+  --color-azul: #1877F2;
+  --color-azul-hover: rgba(23, 115, 233,0.75);
+  --color-instagram: #E4405F;
+  --color-instagramhover: rgba(207, 58, 86,0.75);
+  --color-github: #39d353;
+  --color-gitHub-hover: rgba(53, 198, 78,0.75);
+  --color-html: #e44d26;
+  --color-css: #1d538e;
+  --color-sass: #c66493;
+  --color-bootstrap: #8411f6;
+  --color-javascript: #f9b134;
+  --color-typescript: #2f72bc;
+  --color-nodejs: #7cb73f;
+  --color-angular: #d6002f;
+  --color-git: #e84d31;
+  --h1-font-size: 3.5rem;
+  --p-font-size: 1.6rem;
 }
 
 body {
@@ -53,20 +55,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
-  min-width: 320px;
-}
-
 h1 {
-  font-size: 2.7rem;
+  font-size: var(--h1-font-size);
   color: var(--verdePadrao);
   font-style: fontNormal;
   font-weight: 700;
 }
 
 p {
-  font-size: 1.6rem;
-	font-weight: 300;
+  font-size: var(--p-font-size);
+	font-weight: 400;
   font-family: fontLight;
 }
 
