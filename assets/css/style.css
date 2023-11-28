@@ -36,7 +36,15 @@
   --instagramHover: rgba(207, 58, 86,0.75);
   --gitHub: #39d353;
   --gitHubHover: rgba(53, 198, 78,0.75);
-  --whatsApp:
+  --html:
+  --css:
+  --sass:
+  --bootstrap:
+  --javaScript:
+  --typeScript:
+  --nodeJs:
+  --angular:
+  --git:
 }
 
 body {
