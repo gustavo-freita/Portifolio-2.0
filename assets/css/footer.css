@@ -10,7 +10,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	margin: 0 100px;
+	margin: 0 10rem;
 }
 
 .caixaFooter .contatoInformacoesFooter{
@@ -18,45 +18,47 @@ footer {
 }
 
 .contatoInformacoesFooter h1 {
-	font-size: 31px;
+	color: #fff;
+	font-size: 3.1rem;
 	font-weight: 900;
-	line-height: 41px;
-	margin-bottom: 18px;
+	line-height: 4.1rem;
+	margin-bottom: 1.8rem;
     font-style: fontLight;
 }
 
 .contatoInformacoesFooter .contatosFooter {
 	display: flex;
 	flex-direction: column;
-	gap: 13px;
+	gap: 1.3rem;
 }
 
 .contatosFooter .contatosInformacoes {
 	display: flex;
-	gap: 7px;
+	gap: .7rem;
 }
 
 .contatosFooter .contatosInformacoes i {
-	width: 24px;
-	height: 24px;
-    color: #4bf70c;
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+    color: var(--color-verde-padrao);
 }
 
 .contatoInformacoesFooter .linksFooter {
-	width: 213px;
-	height: 42px;
+	width: 21.3rem;
+	height: 4.2rem;
 	display: flex;
-	gap: 15px;
+	gap: 1.5rem;
 }
 
 .linksFooter .iconesFooter i{
-    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-	font-size: 25px;
-	color: #4bf70c;
-	width: 42px;
-	height: 42px;
+    box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+	font-size: 2.5rem;
+	color: var(--color-verde-padrao);
+	width: 4.2rem;
+	height: 4.2rem;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -66,67 +68,67 @@ footer {
 
 .linksFooter .iconesFooter.linkedin i:hover {
 	color:#fff;
-	box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(23, 115, 233,0.75);
-    background-color: #1877F2;
-    box-shadow: 0 0 20px #1877F2;
+	box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    background-color: var(--color-azul);
+    box-shadow: 0 0 20px var(--color-azul-hover);
 }
 
 .linksFooter .iconesFooter.github i:hover {
 	color: #fff;
-	box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(53, 198, 78,0.75);
-    background-color: #39d353;
-    box-shadow: 0 0 20px #39d353;
+	box-shadow: 0 1px 20px -5px var(--color-github-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-github-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-github-hover);
+    background-color: var(--color-github);
+    box-shadow: 0 0 20px var(--color-github);
 }
 
 .linksFooter .iconesFooter.whatsapp i:hover {
 	color: #fff;
-	background-color: #4bf70c;
-    box-shadow: 0 0 20px #4bf70c;
+	background-color: var(--color-verde-padrao);
+    box-shadow: 0 0 20px var(--color-verde-padrao);
 }
 
 .linksFooter .iconesFooter.instagram i:hover {
 	color: #fff;
-	box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(207, 58, 86,0.75);
+	box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-azul-hover);
     background-color: #cf3a56;
     box-shadow: 0 0 20px #cf3a56;
 
 }
 
 .caixaFooter .setaHeader i{
-	width: 50px;
-	height: 50px;
+	width: 5rem;
+	height: 5rem;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #4bf70c;
-    box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -webkit-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-    -moz-box-shadow: 0 1px 20px -5px rgba(75,248,13,0.75);
-	font-size: 25px;
+	color: var(--color-verde-padrao);
+    box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    -webkit-box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+    -moz-box-shadow: 0 1px 20px -5px var(--color-verde-hover);
+	font-size: 2.5rem;
     transition: 0.8s ease;
 }
 
 .caixaFooter .setaHeader i:hover {
-	width: 55px;
-	height: 55px;
+	width: 5.5rem;
+	height: 5.5rem;
 	color: #fff;
-	background-color: #4bf70c;
-    box-shadow: 0 0 20px #4bf70c;
-	font-size: 30px;
+	background-color: var(--color-verde-padrao);
+    box-shadow: 0 0 20px var(--color-verde-padrao);
+	font-size: 3rem;
 }
 
 .copyright {
-	width: 322px;
-	height: 55px;
-	font-size: 22px;
-	line-height: 55px;
+	width: 32.2rem;
+	height: 5.5rem;
+	font-size: 2.2rem;
+	line-height: 5.5rem;
 	font-weight: 200;
     font-family: 'Poppins', sans-serif;
 }
