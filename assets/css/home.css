@@ -105,7 +105,8 @@
     }
 
     .containerHome {
-        margin: 15rem 10rem 0 10rem;
+        margin: 15rem 0 0 3rem;
+        width: 100%;
     }
 
     .containerHome .informacaoHome {
