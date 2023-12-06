@@ -111,11 +111,12 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
 	#habilidades {
 		height: auto;
-		padding: 50rem 0 0 0;
+		padding: 12rem 0 0 8rem;
 	}
 
 	.containerHabilidades {
-		padding: 5rem 0;
+		padding: 5rem 3rem;
+		margin: 0;
 	}
 }
 
