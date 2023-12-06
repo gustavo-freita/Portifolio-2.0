@@ -131,6 +131,27 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+	.caixaFooter {
+		margin: 0 0 0 5rem;
+	}
+
+	.caixaFooter .contatoInformacoesFooter {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		gap: 4rem;
+	}
+
+	.contatoInformacoesFooter .contatosFooter {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+	}
+
 	.caixaFooter .setaHeader i {
 		display: none;
 	}
@@ -138,5 +159,10 @@ footer {
 	.contatosFooter .contatosInformacoes {
 		display: flex;
 		gap: 1rem;
+	}
+
+	.copyright {
+		width: auto;
+		margin: 0 0 0 4rem;
 	}
 }
