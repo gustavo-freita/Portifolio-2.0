@@ -19,11 +19,8 @@ footer {
 
 .contatoInformacoesFooter h1 {
 	color: #fff;
-	font-size: 3.1rem;
-	font-weight: 900;
 	line-height: 4.1rem;
 	margin-bottom: 1.8rem;
-    font-style: fontLight;
 }
 
 .contatoInformacoesFooter .contatosFooter {
@@ -34,7 +31,7 @@ footer {
 
 .contatosFooter .contatosInformacoes {
 	display: flex;
-	gap: .7rem;
+	gap: 1rem;
 }
 
 .contatosFooter .contatosInformacoes i {
@@ -131,4 +128,15 @@ footer {
 	line-height: 5.5rem;
 	font-weight: 200;
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+	.caixaFooter .setaHeader i {
+		display: none;
+	}
+
+	.contatosFooter .contatosInformacoes {
+		display: flex;
+		gap: 1rem;
+	}
 }
