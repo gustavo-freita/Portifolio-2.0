@@ -129,7 +129,7 @@ h1 {
 
 @media screen and (max-width: 320px) {
   #projetos {
-    margin: 0 0 0 5rem;
+    margin: 0 0 0 2rem;
   }
 
   .container {

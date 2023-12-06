@@ -93,12 +93,18 @@
 		height: 100%;
 	}
 	.containerSobre{
-		margin: 0 0 0 7rem;
+		margin: 0 0 0 1rem;
 	}
 
 	.resumoSobre h1 {
 		text-align: center;
 	}
+
+	.caixaInformacoes img {
+		width: 24rem;
+	}
+
+
 
 	.marginSobre {
 		display: flex;
