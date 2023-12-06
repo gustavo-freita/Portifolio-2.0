@@ -128,6 +128,14 @@ h1 {
 }
 
 @media screen and (max-width: 320px) {
+  #projetos {
+    margin: 0 0 0 5rem;
+  }
+
+  .container {
+    margin-top: 4rem;
+  }
+
   .cardeLinks {
     padding: 1rem;
   }
