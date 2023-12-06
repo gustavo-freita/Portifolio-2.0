@@ -2,24 +2,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 80vh;
 }
 
 .containerHabilidades {
 	width: 98.6rem;
-	height: 45.9rem;
-	background: rgb(76,76,76);
     background: linear-gradient(236deg, rgba(76,76,76,1) 26%, rgba(16,16,16,1) 89%);
 	border-radius: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-	margin: 0 10rem;
+	flex-direction: column;	margin: 0 10rem;
 }
 
 .containerHabilidades h1 {
-	margin-bottom: 5.5rem;
+	margin: 5.5rem 0; 
 	font-weight: 900;
 	text-align: center;
     color: var(--color-verde-padrao);
@@ -30,8 +27,6 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	text-align: center;
-	width: 63.9rem;
-	height: auto;
 }
 
 .habilidadesLogos .logos-01 {
@@ -111,4 +106,21 @@
 
 .habilidadesLogos p {
 	margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+	#habilidades {
+		height: auto;
+		padding: 50rem 0 0 0;
+	}
+
+	.containerHabilidades {
+		padding: 5rem 0;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	#habilidades {
+		padding: 50rem 0 0 0;
+	}
 }
