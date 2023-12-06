@@ -61,14 +61,16 @@ header {
 
 @media screen and (max-width:768px) {
     .containerHeader {
-        width: 100%;
+        width: 50%;
+        z-index: 1000;
         position: fixed;
-        left: -83px;
+        left: 15.6rem;
         top: 0;
+        margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: blue;
+        background-color: #000;
     }
 
     .containerHeader .conteudoHeader {
@@ -92,11 +94,11 @@ header {
     }
 
     .conteudoHeader ul {
-        width: 100%;
         position: fixed;
-        left: -100%;
-        top: 6rem;
+        left: -100rem;
+        top: 0;
         gap: 0;
+        margin: 0;
         border-radius: 0 0 2rem 2rem;
         background-color: #000;
         text-align: center;
@@ -109,6 +111,6 @@ header {
     }
 
     .conteudoHeader ul.active {
-        left: 0;
+        left: -6rem;
     }
 }
