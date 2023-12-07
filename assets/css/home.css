@@ -138,6 +138,7 @@
     .containerHome {
         display: flex;
         flex-direction: column-reverse;
+        margin: 0 10rem;
     }
 
     .containerHome .informacaoHome {
